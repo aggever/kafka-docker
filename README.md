@@ -7,3 +7,4 @@ The purpose of this repository is test and demonstrate the use of Kafka for inte
 Currently the following labs are part of this repository:
 * [Lab 0](./0-kafka-docker/) - setup a Kafka environment and demonstrate the use of basic Kafka CLI commands.
 * [Lab 1](./1-cp-all-in-one/) - setup Confluent Platform and explore the Confluent Control Center via the browser.
+* [Lab 2](./2-Confluent-REST-Proxy/) - setup Kafka REST Proxy and execute curl commands.
