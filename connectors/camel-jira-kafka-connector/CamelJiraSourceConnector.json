@@ -1,0 +1,13 @@
+{
+  "name": "CamelJiraSourceConnector",
+  "config": {
+	  "connector.class": "org.apache.camel.kafkaconnector.jira.CamelJiraSourceConnector",
+	  "tasks.max": "1",
+	  "key.converter": "org.apache.kafka.connect.storage.StringConverter",
+	  "value.converter": "org.apache.kafka.connect.storage.StringConverter",
+	  "topics": "jira_topic",
+	  "camel.component.jira.jiraUrl": "http://localhost",
+	  "camel.source.endpoint.jiraUrl": "http://localhost",
+	  "camel.source.path.type": "AddIssue, DeleteIssue, UpdateIssue"
+  }
+}
